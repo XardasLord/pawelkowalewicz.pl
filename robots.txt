@@ -1,3 +1,12 @@
+# robots.txt for pawelkowalewicz.pl
+
 User-agent: *
 Allow: /
+Disallow: /404.html
+
+# Sitemap location
 Sitemap: https://pawelkowalewicz.pl/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
