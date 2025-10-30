@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pawelkowalewicz.pl/sitemap.xml
