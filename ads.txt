@@ -1,0 +1,4 @@
+﻿# ads.txt for pawelkowalewicz.pl
+# This site does not currently display advertisements
+# If you want to advertise, please contact: kowalewicz.pawel@gmail.com
+

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Paweł Kowalewicz — Full‑stack .NET & Angular | Integracje, HR, Fintech</title>
+  <title>Paweł Kowalewicz — Full‑stack .NET & Angular Developer</title>
   <meta name="description" content="Paweł Kowalewicz — full‑stack developer (.NET & Angular). Tworzę szybkie, stabilne systemy B2B: integracje e‑commerce/magazyn, ewidencja czasu pracy oraz automatyzacje podatkowe. Architektura DDD, Azure." />
   <meta name="keywords" content=".NET, C#, Angular, GraphQL, Azure, DDD, integracje Allegro, integracja Erli, InPost, integracje InPost, ewidencja czasu pracy, PostgreSQL, Stock, HR system, Tailwind" />
   <meta name="author" content="Paweł Kowalewicz" />
@@ -36,7 +36,21 @@
   <meta name="twitter:image" content="https://pawelkowalewicz.pl/assets/og-cover.png" />
   <meta name="twitter:image:alt" content="Paweł Kowalewicz - Full-stack Developer Portfolio" />
 
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Google Analytics 4 - Uncomment and replace G-XXXXXXXXXX with your Measurement ID -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MK3LDH96D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -187,7 +201,11 @@
     </div>
     <div class="relative">
       <div class="absolute inset-0 bg-brand/20 blur-3xl rounded-full opacity-20"></div>
-      <img src="assets/profile.jpg" alt="Zdjęcie — Paweł Kowalewicz" class="relative w-full rounded-3xl shadow-2xl ring-1 ring-slate-800 object-cover transition-transform hover:scale-[1.02]" width="900" height="900" loading="eager" fetchpriority="high">
+      <picture>
+        <source type="image/webp" srcset="assets/profile-400.webp 400w, assets/profile-600.webp 600w, assets/profile-900.webp 900w" sizes="(max-width: 640px) 400px, (max-width: 1024px) 600px, 900px">
+        <source type="image/jpeg" srcset="assets/profile.jpg">
+        <img src="assets/profile.jpg" alt="Zdjęcie — Paweł Kowalewicz" class="relative w-full rounded-3xl shadow-2xl ring-1 ring-slate-800 object-cover transition-transform hover:scale-[1.02]" width="898" height="898" loading="eager" fetchpriority="high">
+      </picture>
     </div>
   </section>
 
@@ -224,7 +242,11 @@
     <div class="grid md:grid-cols-3 gap-6">
       <article class="group rounded-2xl border border-slate-800 bg-slate-900/40 hover:bg-slate-900/70 hover:border-brand/40 transition-all overflow-hidden">
         <div class="relative aspect-video overflow-hidden bg-slate-800">
-          <img src="assets/integrator.jpg" alt="Screenshot projektu Integrator - system integracji zamówień i wysyłek" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="1200" height="675" decoding="async">
+          <picture>
+            <source type="image/webp" srcset="assets/integrator-400.webp 400w, assets/integrator-800.webp 800w, assets/integrator-1200.webp 1200w" sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+            <source type="image/jpeg" srcset="assets/integrator.jpg">
+            <img src="assets/integrator.jpg" alt="Screenshot projektu Integrator - system integracji zamówień i wysyłek" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="1200" height="675" decoding="async">
+          </picture>
           <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-60"></div>
         </div>
         <div class="p-6">
@@ -243,7 +265,11 @@
       </article>
       <article class="group rounded-2xl border border-slate-800 bg-slate-900/40 hover:bg-slate-900/70 hover:border-brand/40 transition-all overflow-hidden">
         <div class="relative aspect-video overflow-hidden bg-slate-800">
-          <img src="assets/working-time.jpg" alt="Screenshot projektu Working Time Records - system ewidencji czasu pracy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="1200" height="675" decoding="async">
+          <picture>
+            <source type="image/webp" srcset="assets/working-time-400.webp 400w, assets/working-time-800.webp 800w, assets/working-time-1200.webp 1200w" sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+            <source type="image/jpeg" srcset="assets/working-time.jpg">
+            <img src="assets/working-time.jpg" alt="Screenshot projektu Working Time Records - system ewidencji czasu pracy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="1200" height="675" decoding="async">
+          </picture>
           <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-60"></div>
         </div>
         <div class="p-6">
@@ -262,7 +288,11 @@
       </article>
       <article class="group rounded-2xl border border-slate-800 bg-slate-900/40 hover:bg-slate-900/70 hover:border-brand/40 transition-all overflow-hidden">
         <div class="relative aspect-video overflow-hidden bg-slate-800">
-          <img src="assets/podatki.jpg" alt="Screenshot projektu Podatki w Chmurze - system automatyzacji rozliczeń podatkowych" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="1200" height="675" decoding="async">
+          <picture>
+            <source type="image/webp" srcset="assets/podatki-400.webp 400w, assets/podatki-800.webp 800w, assets/podatki-1200.webp 1200w" sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+            <source type="image/jpeg" srcset="assets/podatki.jpg">
+            <img src="assets/podatki.jpg" alt="Screenshot projektu Podatki w Chmurze - system automatyzacji rozliczeń podatkowych" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" width="1200" height="675" decoding="async">
+          </picture>
           <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-60"></div>
         </div>
         <div class="p-6">
