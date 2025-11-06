@@ -5,7 +5,7 @@
 ### ✨ Nowe funkcje
 
 #### 🖼️ Grafiki projektów
-- Dodano grafiki do wszystkich trzech projektów (Integrator, Working Time Records, Podatki w Chmurze)
+- Dodano grafiki do wszystkich trzech projektów (Integrator, Ewidencja Czasu Pracy, Podatki w Chmurze)
 - Obrazy z efektem hover (zoom przy najechaniu)
 - Gradient overlay dla lepszej czytelności tekstu
 - Lazy loading dla optymalizacji wydajności
