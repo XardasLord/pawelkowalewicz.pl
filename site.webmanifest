@@ -18,7 +18,7 @@
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
-    },
+    }
   ],
   "theme_color": "#0b1220",
   "background_color": "#0b1220",
